@@ -1,0 +1,22 @@
+{
+  "name": "nexus-tone-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "./node_modules/.bin/webpack-dev-server --content-base build --inline --hot --port 3000",
+    "webpack-watch": "./node_modules/.bin/webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "nexusui": "^1.0.8",
+    "tone": "^0.6.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
